@@ -111,17 +111,7 @@
       <optional>true</optional>
     </dependency>
   </dependencies>
-<build>
-    <pluginManagement>
-        <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
-        </plugins>
-    </pluginManagement>
-</build>
+
   <build>
     <plugins>
       <plugin>
@@ -313,14 +303,6 @@
             </executions>
           </plugin>
 
-          <plugins>
-            <plugin>
-                <groupId>org.sonarsource.scanner.maven</groupId>
-                <artifactId>sonar-maven-plugin</artifactId>
-                <version>3.4.0.905</version>
-            </plugin>
-        </plugins>
-        
           <plugin>
             <groupId>com.gitlab.haynes</groupId>
             <artifactId>libsass-maven-plugin</artifactId>
