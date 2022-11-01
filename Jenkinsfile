@@ -6,9 +6,9 @@ pipeline {
       }
     agent { label "slave-1"}
     stages {
-        stage('maven build'){
+        stage('Gradle build'){
             steps{
-                sh 'mvn clean install'
+                sh 'gradle build'
             }
         }
         stage('Building Docker image') {
