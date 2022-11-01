@@ -4,7 +4,7 @@ pipeline {
         registryCredential = 'dockerhub'
         dockerImage = ''
       }
-    agent any
+    agent { label "slave-1"}
     stages {
         stage('maven build'){
             steps{
