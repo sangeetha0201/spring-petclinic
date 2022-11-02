@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM sandeep4642/java-11:1
 
 RUN mkdir /apps
 
