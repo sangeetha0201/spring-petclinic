@@ -2,7 +2,7 @@ FROM sandeep4642/java-11:1
 
 RUN mkdir /apps
 
-COPY ./build/libs/*.jar /apps/spring-petclinic.jar
+COPY ./*.jar /apps/spring-petclinic.jar
 
 EXPOSE 8080
 
