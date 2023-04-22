@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        registry = "sandeep4642/hello-spring-boot-war"    
+        registry = "sandeep4642/spring-petclinic"    
         registryCredential = 'dockerhub'
         dockerImage = ''
       }
