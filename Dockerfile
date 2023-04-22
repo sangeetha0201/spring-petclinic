@@ -2,8 +2,8 @@ FROM sandeep4642/java-11:1
 
 RUN mkdir /apps
 
-COPY ./build/libs/spring-petclinic-2.6.0.jar /apps/docker.jar
+COPY ./build/libs/*.jar /apps/spring-petclinic.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/apps/docker.jar"]
+CMD ["java", "-jar", "/apps/spring-petclinic.jar"]
